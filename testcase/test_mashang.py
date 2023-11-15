@@ -9,9 +9,6 @@ class TestMashang:
     def test_yiran(self):
         print("测试依然老师")
 
-    def test_zhangsan(self):
-        print("测试张三老师")
-
     @pytest.mark.smoke
     def test_xingyao(self):
         print("测试星耀老师")
